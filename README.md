@@ -18,5 +18,5 @@ Originally written for my personal usage. Sharing here as it might help others. 
 
 **Usage:**
 
-remmina_mremoteng_convertor.py -f <mremoteng xml file path> -rk <remmina key> -mk <mremoteng key>
+remmina_mremoteng_convertor.py -f mremoteng_backup.xml -rk remmina_key -mk mremoteng_key
   
