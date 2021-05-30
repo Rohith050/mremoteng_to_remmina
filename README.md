@@ -11,13 +11,15 @@ Mremoteng group structure will be preserved in remmina.
 
 You would need a couple of keys for decrypting mremoteng passwords and encrypting remmina password.
 
-**Remmina key:** Ideally located in ~/.config/remmina/remmina.pref file
+**Remmina secret:** Ideally located in ~/.config/remmina/remmina.pref file
 
-**Mremoteng key:** Optional. Defaulted to "mR3m"
+**Mremoteng secret:** Optional. Defaulted to "mR3m"
 
 Originally written for my personal usage. Sharing here as it might help others. Might not address all scenarios but hopefully script will get you started.
 
 **Usage:**
 
 remmina_mremoteng_convertor.py -f mremoteng_backup.xml -rk remmina_key -mk mremoteng_key
+
+script will create a folder called 'remmina_converted' and stores all the newly created remmina files in this.
   
