@@ -11,9 +11,9 @@ Mremoteng group structure will be preserved in remmina.
 
 You would need a couple of keys for decrypting mremoteng passwords and encrypting remmina password.
 
-**Remmina password:** Ideally located in ~/.config/remmina/remmina.pref file
+**Remmina key:** Ideally located in ~/.config/remmina/remmina.pref file
 
-**Mremoteng password:** Optional. Defaulted to "mR3m"
+**Mremoteng key:** Optional. Defaulted to "mR3m"
 
 Originally written for my personal usage. Sharing here as it might help others. Might not address all scenarios but hopefully script will get you started.
 
