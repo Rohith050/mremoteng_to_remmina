@@ -1,3 +1,8 @@
+import sys
+if sys.version_info[0] < 3:
+    raise Exception("Python 3 or a more recent version is required.")
+
+
 import base64
 from Crypto.Cipher import DES3, AES
 import hashlib
